@@ -1,0 +1,124 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+app
+app/
+/app/
+*/app
+
+#Sonarqube
+.sonarqube/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+*/[Dd]ebug/
+[Dd]ebugPublic/
+*/[Dd]ebugPublic/
+[Rr]elease/
+*/[Rr]elease/
+[Rr]eleases/
+*/[Rr]eleases/
+x64/
+*/x64/
+x86/
+*/x86/
+[Ww][Ii][Nn]32/
+*/[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+*/[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*/[Aa][Rr][Mm]64/
+build/
+*/build/
+bld/
+*/bld/
+[Bb]in/
+*/[Bb]in/
+[Oo]bj/
+*/[Oo]bj/
+[Ll]og/
+*/[Ll]og/
+[Ll]ogs/
+*/[Ll]ogs/
+msbuild.log
+*/msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+*/.vs/*
+.vs/*
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# Visual Studio Code
+.vscode
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+/.vs
+.vs
+.vs/*
+*/.vs
+
+.idea
+/.idea
+*/.idea
+.idea/*
