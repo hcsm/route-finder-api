@@ -18,7 +18,7 @@ This project is a technical challenge that involves:
 - .NET 8
 - ASP.NET Core Web API
 - MediatR
-- Entity Framework Core or File-based Storage
+- File-based Storage
 - Swagger / Swashbuckle
 - xUnit and Moq
 
