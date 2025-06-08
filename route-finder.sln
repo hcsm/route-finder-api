@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F5EB7927-829D-427F-84AD-77C67CD0C5CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{BFF27341-B028-4A5B-98D2-2C870274230E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Core", "02 - Core", "{5FB8E8C1-1C04-4577-B062-B2A74AAF083D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infrastructure", "03 - Infrastructure", "{0923B262-F6E3-4F60-A2A0-410A8420ECBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "route-finder-api", "route-finder-api\route-finder-api.csproj", "{2EA358FA-0533-4971-ABA0-F461B608AAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "router-finder-ioc", "router-finder-ioc\router-finder-ioc.csproj", "{E2219FDA-FBA8-49DA-AC63-49386E2D7A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "route-finder-application", "route-finder-application\route-finder-application.csproj", "{7FAFA6BD-30EE-4438-A5CD-34B54EA9A5BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "route-finder-domain", "route-finder-domain\route-finder-domain.csproj", "{823B6925-8EE4-4DC0-85FD-77C2C6E18B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "router-finder-repository", "router-finder-repository\router-finder-repository.csproj", "{8917C848-24C8-4767-AC5F-81003EBD0961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA358FA-0533-4971-ABA0-F461B608AAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA358FA-0533-4971-ABA0-F461B608AAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA358FA-0533-4971-ABA0-F461B608AAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA358FA-0533-4971-ABA0-F461B608AAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2219FDA-FBA8-49DA-AC63-49386E2D7A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2219FDA-FBA8-49DA-AC63-49386E2D7A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2219FDA-FBA8-49DA-AC63-49386E2D7A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2219FDA-FBA8-49DA-AC63-49386E2D7A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAFA6BD-30EE-4438-A5CD-34B54EA9A5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAFA6BD-30EE-4438-A5CD-34B54EA9A5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAFA6BD-30EE-4438-A5CD-34B54EA9A5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAFA6BD-30EE-4438-A5CD-34B54EA9A5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823B6925-8EE4-4DC0-85FD-77C2C6E18B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823B6925-8EE4-4DC0-85FD-77C2C6E18B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823B6925-8EE4-4DC0-85FD-77C2C6E18B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823B6925-8EE4-4DC0-85FD-77C2C6E18B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8917C848-24C8-4767-AC5F-81003EBD0961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8917C848-24C8-4767-AC5F-81003EBD0961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8917C848-24C8-4767-AC5F-81003EBD0961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8917C848-24C8-4767-AC5F-81003EBD0961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFF27341-B028-4A5B-98D2-2C870274230E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5FB8E8C1-1C04-4577-B062-B2A74AAF083D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0923B262-F6E3-4F60-A2A0-410A8420ECBC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2EA358FA-0533-4971-ABA0-F461B608AAE4} = {BFF27341-B028-4A5B-98D2-2C870274230E}
+		{E2219FDA-FBA8-49DA-AC63-49386E2D7A67} = {0923B262-F6E3-4F60-A2A0-410A8420ECBC}
+		{7FAFA6BD-30EE-4438-A5CD-34B54EA9A5BD} = {5FB8E8C1-1C04-4577-B062-B2A74AAF083D}
+		{823B6925-8EE4-4DC0-85FD-77C2C6E18B5A} = {5FB8E8C1-1C04-4577-B062-B2A74AAF083D}
+		{8917C848-24C8-4767-AC5F-81003EBD0961} = {0923B262-F6E3-4F60-A2A0-410A8420ECBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A534ECE-0AC7-4F3C-AD1F-07351E655C3C}
+	EndGlobalSection
+EndGlobal
