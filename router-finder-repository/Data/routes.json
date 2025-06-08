@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0e9f9c96-d5db-4f5d-90f1-2636af4377a1",
+    "origin": "GRU",
+    "destination": "BRC",
+    "cost": 10
+  },
+  {
+    "id": "9fa3b53f-d6b3-4266-b504-d7e7fa3bc7f2",
+    "origin": "BRC",
+    "destination": "SCL",
+    "cost": 5
+  },
+  {
+    "id": "a03f4c80-3691-46d7-8dd0-5682e6d9a28e",
+    "origin": "GRU",
+    "destination": "CDG",
+    "cost": 75
+  },
+  {
+    "id": "f15fc9e3-1035-48a2-b69c-28c7c3f504b3",
+    "origin": "GRU",
+    "destination": "SCL",
+    "cost": 20
+  },
+  {
+    "id": "1dbfb229-82c7-4d27-aafb-e5c3a0ea2f56",
+    "origin": "GRU",
+    "destination": "ORL",
+    "cost": 56
+  },
+  {
+    "id": "64c1c1fd-8650-40a6-9754-5584f49dd3a2",
+    "origin": "ORL",
+    "destination": "CDG",
+    "cost": 5
+  },
+  {
+    "id": "7124a943-64f4-49ed-b09f-253fbf170de2",
+    "origin": "SCL",
+    "destination": "ORL",
+    "cost": 20
+  }
+]
