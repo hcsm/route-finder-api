@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<IsTestProject>true</IsTestProject>
+		<RootNamespace>Route.Finder.Application.Tests</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+		<PackageReference Include="Moq" Version="4.20.72" />
+		<PackageReference Include="Shouldly" Version="4.3.0" />
+		<PackageReference Include="xunit" Version="2.9.3" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="3.1.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\route-finder-application\route-finder-application.csproj" />
+		<ProjectReference Include="..\route-finder-domain\route-finder-domain.csproj" />
+	</ItemGroup>
+
+</Project>
